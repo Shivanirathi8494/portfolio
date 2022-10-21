@@ -1,0 +1,74 @@
+.primary-color{
+color: #89CAC7 !important;
+}
+
+.custom-bg
+{
+background: #6c757d !important; 
+/*099ffa;*/ 
+/*background: rgb(0,212,255,1);*/
+/*background: linear-gradient(276deg, rgba(2,0,36,1) 0%, rgba(56,38,98,1) 35%, rgba(0,212,255,1) 100%);*/
+}
+.bg-grey-dark {
+    background-color: #f6f6f6;
+  }
+.bg-pink
+{
+  background-color: #cd2653;
+}
+.img-topimage
+{
+  width: 400px;
+  height: 400px;
+}
+.img-languageimage
+{
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.fab {
+  padding:20 px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 7px 4px;
+  /*border-radius: 50%;*/
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  color: white !important;
+  opacity: 0.9;
+}
+
+/* Set a specific color for each brand */
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #ff6900;
+  color: white;
+}
+.slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
